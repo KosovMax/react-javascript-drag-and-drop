@@ -1,0 +1,15 @@
+[
+    {"id":0, "name":"Static Text"},
+    {"id":1, "name":"Text Input"},
+    {"id":2, "name":"Text Area Input"},
+    {"id":3, "name":"Number Input"},
+    {"id":4, "name":"Date"},
+    {"id":5, "name":"Date & Time"},
+    {"id":6, "name":"Time"},
+    {"id":7, "name":"Radio Group"},
+    {"id":8, "name":"Dropdown"},
+    {"id":9, "name":"Initials Input"},
+    {"id":10, "name":"File Upload"},
+    {"id":11, "name":"Group"},
+    {"id":12, "name":"Signature"}
+]

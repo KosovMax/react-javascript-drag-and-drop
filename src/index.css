@@ -11,3 +11,108 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#div1, #div2,  #div3, #div4 {
+  float: left;
+  width: 100px;
+  min-height: 35px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#div2{
+    width: 200px;
+    min-height: 200px;
+}
+
+.box{
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 3px;
+  width: 140px;
+  text-align: center;
+  background-color: #EDEDED;
+  border-radius: 3px;
+}
+
+.move{
+  cursor: grab;
+}
+
+.flex{
+  display: flex;
+}
+
+.ListBox{
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 3px;
+  width: 500px;
+  padding-bottom: 100px;
+  cursor: move;
+}
+
+.ListBoxCard{
+  border: 1px solid gray;
+  padding: 8px;
+  margin: 3px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  background-color: #EDEDED;
+    border-radius: 3px;
+}
+.ListBoxCard div:first-child{
+  display: flex;
+  justify-content: space-between;
+}
+.ListBoxCard div:first-child > span{
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 12px;
+}
+
+.groupDrop{
+  border: 1px solid gray;
+  min-height: 100px;
+  padding-bottom: 30px;
+  background-color: #a5a5a563;
+}
+
+.remove{
+  cursor: pointer;
+  font-size: 20px !important;
+  line-height: 12px;
+  color:red;
+
+}
+
+.ListBoxCard_flex{
+  display: flex;
+}
+
+.ListBoxCard_flex > div{
+  width: 49%;
+}
+
+.addComponent{
+  border: 1px dashed gray;
+  padding: 8px;
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.removeRow{
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 12px;
+}
+
+.replaceAdd{
+  border: 0px dashed gray;
+  /* height: 30px; */
+  margin-bottom:45px;
+}
